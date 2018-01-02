@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>{{title}}</title>
+</head>
+<body>
+	{% if user %}
+		<li>name : {{user.name}}</li>
+	{% else %}
+	用户不存在
+	{% endif %}
+	<h1>hello {{user1.name}}</h1>
+	<li>age :{{user1.age}}</li>
+	<li>sex :{{user1.sex}}</li>
+	<div>the {{user1.name}} say : {{user1.say}}</div>
+	<!-- <li>{{book_list.0}}</li>
+	<li>{{book_list.1}}</li>
+	<li>{{book_list.2}}</li>
+	<li>{{book_list.3}}</li> -->
+	{% for book in book_list %}
+	<li>{{book}}</li>
+	{% endfor %}
+	{% for k,v in user.items %}
+	<li>{{forloop.counter0}}.{{k}}:{{v}}</li>
+	{% endfor %}
+	id :{{id}}
+</body>
+</html>

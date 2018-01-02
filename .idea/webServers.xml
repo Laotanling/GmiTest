@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="85d1a052-b64c-4bd7-8477-f444aacf89a0" name="CentOS" url="http://192.168.67.128">
+        <fileTransfer host="192.168.67.128" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/root/project" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="36e84aaa-307c-44ce-8750-c56b261d1bb8" name="Ubuntu" url="http://192.168.67.129">
+        <fileTransfer host="192.168.67.129" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/root/project" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

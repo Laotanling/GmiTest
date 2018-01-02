@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Project.iml" filepath="$PROJECT_DIR$/.idea/Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/csvt04/.idea/csvt04.iml" filepath="$PROJECT_DIR$/csvt04/.idea/csvt04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/csvt05/.idea/csvt05.iml" filepath="$PROJECT_DIR$/csvt05/.idea/csvt05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/csvt06/.idea/csvt06.iml" filepath="$PROJECT_DIR$/csvt06/.idea/csvt06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/csvt07/.idea/csvt07.iml" filepath="$PROJECT_DIR$/csvt07/.idea/csvt07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmitest/.idea/gmitest.iml" filepath="$PROJECT_DIR$/gmitest/.idea/gmitest.iml" />
+    </modules>
+  </component>
+</project>
